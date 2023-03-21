@@ -46,4 +46,4 @@ Coming Soon
 [Trello Board](https://trello.com/invite/b/cga8KL5C/ATTI98fec7b2ec62b4839ef45b01538b5a5e2D7025EF/capstone-project)
 
 ### Link to Netlify 
-[Live Site] Coming Soon
+[Live Site] (https://rad-llama-36be5b.netlify.app/)
