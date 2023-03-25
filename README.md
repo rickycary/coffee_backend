@@ -14,9 +14,9 @@ This app lets user keep track of the coffee that they order at cafe's. If your a
 - Netlify
 
 #### Technologies Used - Backend
-- Python 3
-- Django 
-- Postgress 
+- Express
+- Node.js
+- Mongoose
 - Render
 - Postman
 - Wireframe Pro
