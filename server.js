@@ -21,18 +21,11 @@ mongoose.connection
 // SCHEMA
 const CoffeeSchema = new mongoose.Schema({
     coffeeName: String,
-    typeOfCoffee: String,
-    hotIce: String,
-    rating: Number,
-    comments: String
+    addOns: String,
+    location: String
 });
 
-// const ShopSchema = new mongoose.Schema({
-//     shopName: String
-// })
-
 const Coffee = mongoose.model("Coffee", CoffeeSchema);
-// const Shop = mongoose.model("Shop", ShopSchema)
 
 app.use(cors());
 app.use(morgan("dev"));
@@ -55,8 +48,8 @@ app.post("/coffee", async (req, res) => {
 
 // Coffee Update Route
 app.put("/coffee/:id", async (req, res) => {
-    res.json(await Coffee.findByIdAndUpdate(req.params.id, req.body, {new: true}));
-})
+    res.json(await Coffee.findByIdAndUpdate(req.params.id, req.body))
+});
 
 // Coffee Delete Route
 app.delete("/coffee/:id", async (req, res) => {
