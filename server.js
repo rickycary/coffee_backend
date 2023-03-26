@@ -20,7 +20,7 @@ mongoose.connection
 
 // SCHEMA
 const CoffeeSchema = new mongoose.Schema({
-    coffeeName: String,
+    coffee: String,
     addOns: String,
     location: String
 });
