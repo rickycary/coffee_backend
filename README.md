@@ -8,6 +8,8 @@ This app lets user keep track of the coffee that they order at cafe's. If your a
 
 #### Technologies Used - Frontend
 - Vue (New Language Learned)
+- Vue Router
+- Axios
 - HTML
 - CSS 
 - Javascript
@@ -17,6 +19,7 @@ This app lets user keep track of the coffee that they order at cafe's. If your a
 - Express
 - Node.js
 - Mongoose
+- MongoDB
 - Render
 - Postman
 - Wireframe Pro
